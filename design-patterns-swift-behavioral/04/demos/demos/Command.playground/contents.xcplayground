@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Animation Commands Demo'/>
+        <page name='Enhanced Command Demo'/>
+        <page name='Undoable Commands Demo'/>
+        <page name='Macro Commands Demo'/>
+    </pages>
+</playground>
