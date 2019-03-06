@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ItemCategory" syncable="YES">
+        <attribute name="categoryDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RareItem" inverseName="category" inverseEntity="RareItem" syncable="YES"/>
+    </entity>
+    <entity name="RareItem" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" attributeType="String" syncable="YES"/>
+        <attribute name="lastPurchased" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="ItemCategory" inverseName="items" inverseEntity="ItemCategory" syncable="YES"/>
+        <relationship name="stores" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RetailStore" inverseName="items" inverseEntity="RetailStore" syncable="YES"/>
+    </entity>
+    <entity name="RetailStore" syncable="YES">
+        <attribute name="storeDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storeName" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RareItem" inverseName="stores" inverseEntity="RareItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RareItem" positionX="-47" positionY="288" width="128" height="163"/>
+        <element name="ItemCategory" positionX="162" positionY="234" width="128" height="88"/>
+        <element name="RetailStore" positionX="153" positionY="425" width="128" height="88"/>
+    </elements>
+</model>

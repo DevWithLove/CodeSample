@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4AE1DA15-E25D-4160-B017-C489F897988A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RareBuys</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>96A83454-7E52-4AB8-B71D-5AEF41B2E21D</key>
+		<string>https://bitbucket.org/bricewilson/rarebuys.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RareBuys.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>96A83454-7E52-4AB8-B71D-5AEF41B2E21D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/bricewilson/rarebuys.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>96A83454-7E52-4AB8-B71D-5AEF41B2E21D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96A83454-7E52-4AB8-B71D-5AEF41B2E21D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RareBuys</string>
+		</dict>
+	</array>
+</dict>
+</plist>
